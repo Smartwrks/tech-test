@@ -18,5 +18,4 @@
 ## Test 3 (Algorithm)
 * Given an array of 50 numbers, including some duplicates, create a simple program that does the following:
   * Output an array of only the DUPLICATED numbers in the array.
-  * Output an array of only the UNIQUE numbers in the array.
 * Here is a starter jsfiddle if you would like to use JavaScript, but feel free to use any programming language you are comfortable with: http://jsfiddle.net/cqpcpzob/
