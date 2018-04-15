@@ -1,0 +1,23 @@
+{
+  "name": "smartworks-tech-test_brian-hernandez",
+  "version": "1.0.0",
+  "description": "Smartworks tech test solutions from Brian Hernandez.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianhernandez/tech-test.git"
+  },
+  "keywords": [
+    "smartworks",
+    "tech-test"
+  ],
+  "author": "Brian Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianhernandez/tech-test/issues"
+  },
+  "homepage": "https://github.com/brianhernandez/tech-test#readme"
+}
