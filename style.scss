@@ -1,0 +1,116 @@
+/***********************************************
+              Normalize.css 8.0
+***********************************************/
+
+@import 'normalize';
+
+
+/***********************************************
+      Styles Authored by Brian Hernandez
+***********************************************/
+
+/**********************
+      Base Styles
+**********************/
+body,
+html { height: 100%; background-color: #DDDDDD; }
+
+.wrapper {
+  // background-color: #DDDDDD;
+  // height: 100%;
+  display: flex;
+  justify-content: center;
+  // align-content: flex-start;
+  // align-items: center;
+  // width: 35em;
+  // align-content: flex-start;
+}
+
+/**********************
+      Form Styles
+**********************/
+
+.form {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  border: 1px solid #69737C;
+  padding: 1.25em .7em .7em; /* 20px 11px 11px */
+  align-self: flex-start;
+  background-color: #fff;
+  color: #333;
+  margin: 3em .5em 2em;
+
+
+  .form__fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 0;
+    // font-size: 2em;
+
+    .form__title {
+      font-size: 1.5em;
+    }
+
+    .form__label {
+      font-weight: bold;
+      margin-top: .9375em; /* 15px */
+      margin-bottom: 8px;
+      font-size: .85em;
+    }
+
+    .form__input,
+    .form__textarea {
+      -webkit-appearance: none;
+      border-style: none;
+      border: 1px solid #D8D8D8;
+      border-radius: 3px;
+      padding: .4375em .8125em; /* 7px 13px */
+      width: 90%;
+      transition: box-shadow 0.30s ease-in-out,
+                  border-color 0.30s ease-in-out;
+
+      &.is-invalid {
+        border-color: #F06365;
+        box-shadow: 0px 0px 5px 2px rgba(240,99,101,.5);
+      }
+
+    }
+
+    .form__input:focus,
+    .form__textarea:focus {
+      outline: none;
+      border-color: #7CBDEB;
+      box-shadow: 0px 0px 4px 2px rgba(124,189,235,.5);
+    }
+
+    .form__button-group {
+      display: flex;
+      justify-content: space-between;
+
+      .form__button {
+        border: none;
+        border-radius: 3px;
+        margin-top: 1em;
+        padding: .4375em .8125em;
+        border: 1px solid #D8D8D8;
+        font-size: .8em;
+        cursor: pointer;
+      }
+
+      .form__button--cancel {
+        margin-right: auto;
+
+      }
+
+      .form__button--save {
+        margin-right: 3px;
+      }
+
+      .form__button--next {
+        border: none;
+        background-color: #2A79B5;
+        color: #fff;
+      }
+    }
+  }
+}

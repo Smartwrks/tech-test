@@ -11,15 +11,6 @@ module.exports = function(grunt) {
         files: {
           'style.css': 'style.scss'
         }
-      },
-      dist: {
-        options: {
-          style: 'compressed',
-          sourcemap: 'none',
-        },
-        files: {
-          'style.min.css': 'style.scss'
-        }
       }
     },
 
@@ -40,7 +31,7 @@ module.exports = function(grunt) {
           livereload: true
         },
       css: {
-        files: '**/*.scss',
+        files: '*.scss',
         tasks: ['sass', 'autoprefixer']
       },
       html: {
