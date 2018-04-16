@@ -1,3 +1,8 @@
+/******************************
+Form Validation Functions
+Authored by Brian Hernandez, 2017
+******************************/
+
   var validator = {};
 
   validator.isEmailAddress = function(input) {

@@ -10,7 +10,9 @@
   <div class="wrapper">
     <form action="" class="form">
       <fieldset class="form__fieldset">
+
         <legend class="form__title">Enter Open Position Information</legend>
+
         <label for="title" class="form__label">Position Title</label>
         <input type="text" class="form__input" id="title" placeholder="Test Position">
 
@@ -21,14 +23,14 @@
         <input type="text" class="form__input" id="department" placeholder="Test Departments">
 
         <label for="comments" class="form__label">Comments</label>
-        <textarea class="form__textarea" id="comments" placeholder="Test Commentss"></textarea>
+        <textarea class="form__textarea" id="comments" placeholder="Test Commentss" resize="false"></textarea>
 
         <div class="form__button-group">
           <button class="form__button form__button--cancel">Cancel</button>
           <button class="form__button form__button--save">Save &amp; Close</button>
-          <button class="form__button form__button--next">Next &gt;</button>
-
+          <button type="submit" class="form__button form__button--next">Next &gt;</button>
         </div>
+
       </fieldset>
     </form>
   </div>
