@@ -28,4 +28,4 @@
 * **Please do not use any built-in functions** - we are looking to see how you would code the solution without relying on built-in functions
 * Output should be a distinct list of items that are duplicated (not all the duplicate records).
 
-### Brian Hernandez Solution:
+### Brian Hernandez Solution: [https://jsfiddle.net/brianhernandez/cqpcpzob/163/](https://jsfiddle.net/brianhernandez/cqpcpzob/163/)
