@@ -2,10 +2,10 @@
 
 ## Test 1 (HTML/CSS/JS)
 * Look at the example form here: https://github.com/Smartwrks/tech-test/blob/master/resources/example-form.png
-* Create the form in HTML. Use HTML5 elements as appropriate (responsiveness a plus)
+* Recreate the example form in HTML. Use HTML5 elements as appropriate (responsiveness a plus)
 * Style the form with CSS. Use SASS/LESS/PostCSS/Compass if desired. Please **do not use Bootstrap**.
 * Add form validation **for all fields** with JavaScript. Use jQuery/Angular/other framework as you feel comfortable.
-* Style the error state as depicted, and the focused form element as depicted.
+* Style the error state as depicted, and the focused form element as depicted (the more accurately recreated the better).
 
 ## Test 2 (Algorithm)
 * Given an array of the numbers between 1..1000, create a simple program that does the following:
